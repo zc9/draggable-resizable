@@ -1,0 +1,77 @@
+/* DraggableResizable.css */
+
+.draggable-resizable {
+  position: absolute;
+  cursor: move;
+  overflow: hidden;
+}
+
+.resizable-handle {
+  position: absolute;
+}
+
+.resizable-handle.top-left {
+  width: 10px;
+  height: 10px;
+  cursor: nwse-resize;
+  left: -5px;
+  top: -5px;
+}
+
+.resizable-handle.top {
+  cursor: ns-resize;
+  height: 10px;
+  top: -5px;
+  left: 5px;
+  right: 5px;
+}
+
+.resizable-handle.top-right {
+  width: 10px;
+  height: 10px;
+  cursor: nesw-resize;
+  right: -5px;
+  top: -5px;
+}
+
+.resizable-handle.left {
+  cursor: ew-resize;
+  top: 5px;
+  bottom: 5px;
+  left: -5px;
+  width: 10px;
+}
+
+.resizable-handle.right {
+  cursor: ew-resize;
+  top: 5px;
+  bottom: 5px;
+  right: -5px;
+  width: 10px;
+}
+
+.resizable-handle.bottom-left {
+  
+  cursor: nesw-resize;
+  bottom: -5px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+}
+
+.resizable-handle.bottom {
+  cursor: ns-resize;
+  bottom: -5px;
+  left: 5px;
+  right: 5px;
+  height: 10px;
+}
+
+.resizable-handle.bottom-right {
+  cursor: nwse-resize;
+  bottom: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+}
+
